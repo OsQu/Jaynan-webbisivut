@@ -56,12 +56,13 @@ a {
 #main-content {
   background: #CCE5E8;
   overflow: auto;
+  padding-bottom: 20px;
 }
 
 /* Blog area */
 #blog {
   margin: 15px;
-  width: 65%;
+  width: 64%;
   float: left;
   background: #FFFFFF;
   border: 2px solid #64bfd3;
@@ -103,6 +104,7 @@ a {
 #right-column {
   float: right;
   width: 30%;
+  margin-right: 15px;
 }
 #right-column div.box {
   background: #FFFFFF;
@@ -147,5 +149,6 @@ a {
 
 #sponsors img {
   display: block;
-  margin: 20px 10px;
+  margin: 20px auto;
+  max-width: 200px;
 }
