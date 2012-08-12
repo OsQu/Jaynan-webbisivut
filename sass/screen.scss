@@ -1,4 +1,8 @@
 /* For all */
+$content-width: 908px;
+$right-width: 30%;
+$blog-width: 100% - $right-width - 5%; 
+
 body {
     background: #f1f1f1;
     font-family: Arial, Sans Serif;
@@ -9,7 +13,7 @@ a {
 }
 
 #content {
-    width: 908px;
+    width: $content-width;
     margin: 0 auto;
 }
 
@@ -22,4 +26,4 @@ a {
 @import "menu";
 @import "maincontent";
 @import "blog";
-
+@import "rightcolumn";
