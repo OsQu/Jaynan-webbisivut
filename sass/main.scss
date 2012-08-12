@@ -1,0 +1,25 @@
+/* For all */
+body {
+    background: #f1f1f1;
+    font-family: Arial, Sans Serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    width: 908px;
+    margin: 0 auto;
+}
+
+/* Draw that fancy line below element :) */
+.bottom-line {
+    border-bottom: 1px solid #D7D7D7;
+}
+
+@import "header";
+@import "menu";
+@import "maincontent";
+@import "blog";
+

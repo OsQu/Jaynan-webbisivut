@@ -1,65 +1,3 @@
-/* For all */
-body {
-    background: #f1f1f1;
-    font-family: Arial, Sans Serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-#content {
-    width: 908px;
-    margin: 0 auto;
-}
-
-/* Draw that fancy line below element :) */
-.bottom-line {
-    border-bottom: 1px solid #D7D7D7;
-}
-
-/* Header with logo and contact link */
-#header {
-    padding-top: 17px 12px 0;
-}
-
-#yhteystiedot {
-    float: right;
-    margin-top: 90px;
-    font-size: 14px;
-    color: #A5A5A5;
-}
-
-#yla-kuva {
-    width: 908px;
-    height: 353;
-    background: url('pics/ylakuva.png') no-repeat;
-    margin: 20px 0;
-    padding-bottom: 20px;
-}
-
-/* Horizontal menu stuff */
-
-#horizontal-menu {
-    text-transform: uppercase;
-}
-
-#horizontal-menu a {
-    color: #474747;
-}
-
-#horizontal-menu li {
-    display: inline;
-    padding: 5px 30px;
-}
-
-/* Main content */
-
-#main-content {
-    background: #CCE5E8;
-    overflow: auto;
-}
-
 /* Blog area */
 
 #blog {
@@ -109,4 +47,3 @@ a {
 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#00e5e5e5',GradientType=1 ); /* IE6-9 */
 }
-
