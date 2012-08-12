@@ -64,7 +64,7 @@ a {
   width: 65%;
   float: left;
   background: #FFFFFF;
-  border: 2px solid #64BFD3;
+  border: 2px solid #64bfd3;
 }
 
 #blog .blog-entry {
@@ -104,6 +104,17 @@ a {
   float: right;
   width: 30%;
 }
+#right-column div.box {
+  background: #FFFFFF;
+  border: 2px solid #64bfd3;
+}
+#right-column h4 {
+  color: #535353;
+  font-weight: normal;
+  padding: 10px 10px;
+  margin: 0px;
+  border-bottom: 1px solid #D3D3D3;
+}
 
 #jayna-actions {
   margin-top: 30px;
@@ -112,9 +123,11 @@ a {
 }
 #jayna-actions #lainaa {
   background: url("../pics/kamera.png") no-repeat center top;
+  float: right;
 }
 #jayna-actions #ilmoita {
   background: url("../pics/pokaali.png") no-repeat center top;
+  float: left;
 }
 #jayna-actions a {
   height: 50px;
@@ -127,10 +140,12 @@ a {
   letter-spacing: 2px;
 }
 
-#ilmoita {
-  float: left;
+#fb-timeline {
+  height: 500px;
+  margin-bottom: 20px;
 }
 
-#lainaa {
-  float: right;
+#sponsors img {
+  display: block;
+  margin: 20px 10px;
 }
