@@ -5,10 +5,26 @@
 }
 
 #horizontal-menu a {
-    color: #474747;
 }
 
-#horizontal-menu li {
-    display: inline;
-    padding: 5px 30px;
+$menu-bottom: 20px;
+#horizontal-menu {
+
+    a {
+        color: #474747;
+    }
+
+    ul {
+        margin-bottom: $menu-bottom;
+    }
+
+    li {
+        display: inline;
+        padding: $menu-bottom 30px;
+        
+        &.selected {
+            background: url('../pics/arrow.png') no-repeat center bottom;
+        }
+    }
 }
+
