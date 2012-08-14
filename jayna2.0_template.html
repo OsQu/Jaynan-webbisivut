@@ -9,20 +9,18 @@
 <body>
     <div id="content">
         <div id="header" class="bottom-line"> 
-            <img id="jayna-logo" src="pics/jayna-logo.png" alt="Jäynä" /> 
+            <img id="jayna-logo" src="uploads/images/jayna20/jayna-logo.png" alt="Jäynä" /> 
             <a id="yhteystiedot" href="#">YHTEYSTIEDOT</a>
         </div>
         <div id="yla-kuva" class="bottom-line"></div>
         
         <div id="horizontal-menu">
-            {global_content name='20_topmenu'}
+            {menu template='20_topmenu' start_page='jayna20'}
         </div>
 
         <div id="main-content">
             <!-- TODO: TÄHÄN CHILD MENU -->
-            <div id="blog">
-                {content}
-            </div>
+            {content}
 
             <div id="right-column">
                 <div id="jayna-actions">
@@ -49,3 +47,4 @@
 </body>
 
 </html>
+

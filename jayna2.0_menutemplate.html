@@ -1,0 +1,14 @@
+{if $count > 0}
+    <ul>
+    {foreach from=$nodelist item=node}
+        <li {if $node->current == true} class="selected"{/if}><a href="{$node->url}">
+        {if $node->menutext == 'HOME'}
+             <img src="uploads/images/jayna20/home.png" />
+        {else}
+             {$node->menutext}
+        {/if}
+
+</a></li>
+    {/foreach}
+    </ul>
+{/if}
