@@ -1,0 +1,161 @@
+/* For all */
+body {
+  background: url("uploads/images/jayna20/background.png");
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #363636;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  width: 908px;
+  margin: 0 auto;
+}
+
+/* Draw that fancy line below element :) */
+.bottom-line {
+  border-bottom: 1px solid #D7D7D7;
+}
+
+/* Header with logo and contact link */
+#header {
+  padding: 15px 0;
+}
+
+#yhteystiedot {
+  float: right;
+  margin-top: 90px;
+  font-size: 14px;
+  color: #A5A5A5;
+}
+
+#yla-kuva {
+  width: 908px;
+  height: 353px;
+  background: url("uploads/images/jayna20/ylakuva.png") no-repeat center top;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+/* Horizontal menu stuff */
+#horizontal-menu {
+  text-transform: uppercase;
+}
+
+#horizontal-menu a {
+  color: #474747;
+}
+#horizontal-menu ul {
+  margin-bottom: 20px;
+}
+#horizontal-menu li {
+  display: inline;
+  padding: 20px 30px;
+}
+#horizontal-menu li.selected {
+  background: url("uploads/images/jayna20/arrow.png") no-repeat center bottom;
+}
+
+/* Main content */
+#main-content {
+  background: #CCE5E8;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+/* Blog area */
+#blog {
+  margin: 15px;
+  width: 64%;
+  float: left;
+  background: #FFFFFF;
+  border: 2px solid #64bfd3;
+}
+
+#blog .blog-entry {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.blog-entry .date {
+  color: #A3A3A3;
+}
+
+.blog-entry h2 {
+  color: #027B9B;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.blog-entry p {
+  line-height: 150%;
+}
+
+.blog-entry-separator {
+  height: 1px;
+  margin: auto;
+  margin: 20px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE5E5E5', endColorstr='#FFE5E5E5');
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(229, 229, 229, 0)), color-stop(20%, #e5e5e5), color-stop(80%, #e5e5e5), color-stop(100%, rgba(229, 229, 229, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+}
+
+#right-column {
+  float: right;
+  width: 30%;
+  margin-right: 15px;
+}
+#right-column div.box {
+  background: #FFFFFF;
+  border: 2px solid #64bfd3;
+}
+#right-column h4 {
+  color: #535353;
+  font-weight: normal;
+  padding: 10px 10px;
+  margin: 0px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+#jayna-actions {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 0 20px;
+}
+#jayna-actions #lainaa {
+  background: url("uploads/images/jayna20/kamera.png") no-repeat center top;
+  float: right;
+}
+#jayna-actions #ilmoita {
+  background: url("uploads/images/jayna20/pokaali.png") no-repeat center top;
+  float: left;
+}
+#jayna-actions a {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding-top: 48px;
+  color: #565B5C;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+#fb-timeline {
+  height: 590px;
+  margin-bottom: 20px;
+}
+
+#sponsors img {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
