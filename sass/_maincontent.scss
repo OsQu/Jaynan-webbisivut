@@ -2,6 +2,14 @@
 
 #main-content {
     background: #CCE5E8;
-    overflow: auto;
+    overflow: hidden;
     padding-bottom: 20px;
+}
+
+#content-container {
+    margin: 15px;
+    width: $blog-width;
+    float: left;
+    background: #FFFFFF;
+    border: $blue-border;
 }
