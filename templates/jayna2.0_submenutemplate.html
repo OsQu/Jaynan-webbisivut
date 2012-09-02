@@ -1,0 +1,10 @@
+{if $count > 0}
+    <div id="submenu" class="menu">
+    <ul>
+        {foreach from=$nodelist item=node}
+        <li><a {if $node->current == true} class="active"{/if} href="{$node->url}">{$node->menutext}</a></li>
+        {/foreach}
+    </ul>
+</div>
+
+{/if}

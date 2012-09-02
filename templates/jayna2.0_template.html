@@ -14,18 +14,19 @@
         </div>
         <div id="yla-kuva" class="bottom-line"></div>
         
-        <div id="horizontal-menu">
-            {menu template='20_topmenu' start_page='jayna20'}
+        <div id="horizontal-menu" class="menu">
+            {menu template='20_topmenu' start_page='jayna20' number_of_levels='2'}
         </div>
 
         <div id="main-content">
-            <!-- TODO: TÄHÄN CHILD MENU -->
-            {content}
-
+            <div id="content-container">
+                {menu template='20_submenu' start_level='3'}
+                {content}
+            </div>
             <div id="right-column">
                 <div id="jayna-actions">
                     <a id="ilmoita" href="#">Ilmoita Jäynä</a> 
-                    <a id="lainaa" href="#">Vuokraa Välineitä </a>
+                    <a id="lainaa" href="#">Vuokraa Välineitä</a>
                     <div style="clear: both;"></div>
                 </div>
 
@@ -34,7 +35,7 @@
                 </div>
                 
                 <div id="sponsors" class="box"> 
-                    <h4>Yhteistyössä:</h4>
+                    <h4>Yhteistyössä</h4>
                     {cms_module module='Banners' category="TEK"}
                     {cms_module module='Banners' category="ABB"} 
                     {cms_module module='Banners' category="Innohair"}
@@ -47,4 +48,5 @@
 </body>
 
 </html>
+
 
