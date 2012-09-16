@@ -4,6 +4,11 @@
 .menu {
     text-transform: uppercase;
 
+    ul {
+        text-align: center;
+        padding-left: 0;
+    }
+
     li {
         display: inline;
         padding-left: 30px;
@@ -40,6 +45,11 @@ $menu-bottom: 20px;
 
     a.active {
         color: #3097A9;
+    }
+
+    li {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
